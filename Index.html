@@ -1,90 +1,10 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
-import { Phone, Sparkles, MapPin, Instagram } from "lucide-react";
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Élégance</title>
+</head>
 
-export default function elegance() {
-  return (
-    <div className="min-h-screen bg-black text-yellow-400">
-      {/* Header */}
-      <header className="p-6 flex justify-between items-center border-b border-yellow-500/30">
-        <h1 className="text-2xl font-bold tracking-wide">Élégance</h1>
-        <a href="https://wa.me/23058172728" target="_blank">
-          <Button className="bg-yellow-500 text-black hover:bg-yellow-400">
-            WhatsApp
-          </Button>
-        </a>
-      </header>
-
-      {/* Hero */}
-      <section className="text-center py-16 px-6">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl font-bold mb-4"
-        >
-          Onglerie à domicile ✨
-        </motion.h2>
-        <p className="text-yellow-200 max-w-xl mx-auto">
-          Manucure & pédicure professionnelle avec des produits bio qui respectent
-          la santé de vos ongles.
-        </p>
-      </section>
-
-      {/* Services */}
-      <section className="grid md:grid-cols-3 gap-6 px-6 pb-16">
-        <Card className="bg-black border-yellow-500/30">
-          <CardContent className="p-6 text-center">
-            <Sparkles className="mx-auto mb-3" />
-            <h3 className="font-semibold">Manucure Bio Gel</h3>
-            <p className="text-sm text-yellow-200">
-              Ongles naturels protégés sans produits nocifs.
-            </p>
-          </CardContent>
-        </Card>
-
-        <Card className="bg-black border-yellow-500/30">
-          <CardContent className="p-6 text-center">
-            <Sparkles className="mx-auto mb-3" />
-            <h3 className="font-semibold">Pédicure</h3>
-            <p className="text-sm text-yellow-200">
-              Soin complet pour des pieds doux et élégants.
-            </p>
-          </CardContent>
-        </Card>
-
-        <Card className="bg-black border-yellow-500/30">
-          <CardContent className="p-6 text-center">
-            <Sparkles className="mx-auto mb-3" />
-            <h3 className="font-semibold">Service à domicile</h3>
-            <p className="text-sm text-yellow-200">
-              Je me déplace chez vous partout à Maurice.
-            </p>
-          </CardContent>
-        </Card>
-      </section>
-
-      {/* Contact */}
-      <section className="text-center pb-16 px-6">
-        <h2 className="text-2xl font-bold mb-4">Contact</h2>
-        <p className="mb-2 flex justify-center items-center gap-2">
-          <Phone size={16} /> +230 5817 2728
-        </p>
-        <p className="mb-4 flex justify-center items-center gap-2">
-          <MapPin size={16} /> Service à domicile - Île Maurice
-        </p>
-
-        <a href="https://wa.me/23058172728" target="_blank">
-          <Button className="bg-yellow-500 text-black hover:bg-yellow-400">
-            Réserver sur WhatsApp
-          </Button>
-        </a>
-      </section>
-
-      {/* Footer */}
-      <footer className="text-center py-6 border-t border-yellow-500/30 text-sm text-yellow-200">
-        © 2026 Élégance - Onglerie Bio
-      </footer>
-    </div>
-  );
-}
+<body>
+  <h1>Mon site fonctionne 🎉</h1>
+</body>
+</html>
